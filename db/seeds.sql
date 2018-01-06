@@ -1,3 +1,3 @@
-INSERT INTO burgers (name) VALUES ('Double Cheese Burger');
-INSERT INTO burgers (name) VALUES ('Southwest Bacon Burger');
-INSERT INTO burgers (name) VALUES ('Pastrami Burger');
+INSERT INTO burgers (burger_name) VALUES ('Double Cheese Burger');
+INSERT INTO burgers (burger_name) VALUES ('Southwest Bacon Burger');
+INSERT INTO burgers (burger_name) VALUES ('Pastrami Burger');
