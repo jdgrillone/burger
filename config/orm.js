@@ -60,7 +60,7 @@ var orm = {
             cb(result);
         });
     },
-    update: function(table, objColVals, condition, db) {
+    update: function(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";

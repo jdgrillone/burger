@@ -7,7 +7,7 @@
   <li>
     {{burger_name}}
 
-    <button class="change-status" data-id="{{id}}" data-status="{{devoured}}">
+    <button class="change-status" data-id="{{id}}" data-newstatus="true">
       DEVOUR!
     </button>
   </li>
@@ -17,7 +17,7 @@
 <h2>Burgers that have been devoured!</h2>
 
 <ul>
-  {{#each burger}} {{#if devoured}} {{burger_name}} {{/if}} {{/each}}
+  {{#each burger}} {{#if devoured}}<li> {{burger_name}} </li> {{/if}} {{/each}}
 </ul>
 
 <h2>Add a burger</h2>
