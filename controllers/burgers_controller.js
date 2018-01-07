@@ -9,15 +9,15 @@ router.get("/", function(req, res) {
         var hbsObject = {
             burger: data
         };
-        console.log("A");
         console.log(hbsObject);
         res.render("index", hbsObject);
     });
 });
 
 router.post("/api/burgers", function(req, res) {
+    console.log("api hit");
     burger.create([
-        "name"
+        "burger_name"
     ], [
         req.body.name
     ], function(result) {
